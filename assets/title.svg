@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="412" height="134" viewBox="0 0 412 134">
+  <defs>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur1"/>
+      <feFlood flood-color="#A6A8D9" flood-opacity="0.6" result="color1"/>
+      <feComposite in="color1" in2="blur1" operator="in" result="glow1"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur2"/>
+      <feFlood flood-color="#A6A8D9" flood-opacity="0.35" result="color2"/>
+      <feComposite in="color2" in2="blur2" operator="in" result="glow2"/>
+      <feMerge>
+        <feMergeNode in="glow2"/>
+        <feMergeNode in="glow1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="face" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E7E3F5"/>
+      <stop offset="55%" stop-color="#A6A8D9"/>
+      <stop offset="100%" stop-color="#8285C2"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <text x="50%" y="50%" dx="11.200000000000001" dy="11.200000000000001" font-family="Fira Code, Consolas, monospace" font-size="44" font-weight="700" fill="rgb(86,60,111)" text-anchor="middle" dominant-baseline="middle" letter-spacing="2">Aryan Darade</text><text x="50%" y="50%" dx="9.600000000000001" dy="9.600000000000001" font-family="Fira Code, Consolas, monospace" font-size="44" font-weight="700" fill="rgb(78,54,101)" text-anchor="middle" dominant-baseline="middle" letter-spacing="2">Aryan Darade</text><text x="50%" y="50%" dx="8.0" dy="8.0" font-family="Fira Code, Consolas, monospace" font-size="44" font-weight="700" fill="rgb(70,49,91)" text-anchor="middle" dominant-baseline="middle" letter-spacing="2">Aryan Darade</text><text x="50%" y="50%" dx="6.4" dy="6.4" font-family="Fira Code, Consolas, monospace" font-size="44" font-weight="700" fill="rgb(62,43,80)" text-anchor="middle" dominant-baseline="middle" letter-spacing="2">Aryan Darade</text><text x="50%" y="50%" dx="4.800000000000001" dy="4.800000000000001" font-family="Fira Code, Consolas, monospace" font-size="44" font-weight="700" fill="rgb(54,37,70)" text-anchor="middle" dominant-baseline="middle" letter-spacing="2">Aryan Darade</text><text x="50%" y="50%" dx="3.2" dy="3.2" font-family="Fira Code, Consolas, monospace" font-size="44" font-weight="700" fill="rgb(46,32,59)" text-anchor="middle" dominant-baseline="middle" letter-spacing="2">Aryan Darade</text><text x="50%" y="50%" dx="1.6" dy="1.6" font-family="Fira Code, Consolas, monospace" font-size="44" font-weight="700" fill="rgb(38,26,49)" text-anchor="middle" dominant-baseline="middle" letter-spacing="2">Aryan Darade</text>
+    <g filter="url(#glow)">
+      <text x="50%" y="50%" font-family="Fira Code, Consolas, monospace" font-size="44" font-weight="700" fill="url(#face)" text-anchor="middle" dominant-baseline="middle" letter-spacing="2" stroke="#1a1330" stroke-width="1">Aryan Darade</text>
+    </g>
+  </g>
+</svg>
