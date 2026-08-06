@@ -4,8 +4,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:2b1f3d&height=3&section=header" />
 
-<img src="./assets/title.svg" alt="Aryan Darade" />
-
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1500&color=A6A8D9&background=00000000&center=true&vCenter=true&width=560&lines=connecting...;CS+Diploma+%2F%2F+final+year;building+things+that+interest+me;status%3A+online" alt="Typing SVG" />
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2b1f3d,100:000000&height=3&section=header" />
